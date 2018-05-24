@@ -1,0 +1,242 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600);
+
+body {
+  font-family: "Source Sans Pro";
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+/* ------------ nav ------------ */
+
+nav {
+  background-color: #cb3837;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 35px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.top.left {
+  display: inline-block;
+}
+
+/* ------------ header ------------ */
+
+header {
+  background-image: url(images/city-scape.svg);
+  height: 612px;
+  color: white;
+  margin: 0 auto;
+}
+
+.header-1 {
+  height: 82px;
+}
+
+.divnmplogo {
+  display: inline-block;
+  width: 10%;
+}
+
+.divform {
+  display: inline-block;
+  vertical-align: text-bottom;
+  width: 85%;
+}
+
+.nmplogo {
+  margin: 10px 0 0 10px;
+  width: 120px;
+  height: 45px;
+  display: inline-block;
+}
+
+header form {
+  display: inline-block;
+  width: 100%;
+}
+
+.search {
+  background-color: rgb(31,82,111);
+  margin: 10px;
+  padding: 10px;
+  width: 85%;
+  border: 1px solid rgba(255,255,255,0.2);
+  background-image: url("images/searchicon.png");
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  background-position: right;
+  display: inline-block;
+}
+
+header a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+.bearlogo {
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.content-1 {
+  padding: 100px 0px 0px 300px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.button-1 {
+  background-color: #f09233;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  margin: 30px 0;
+  padding: 11px 20px;
+  border-radius: 40px;
+  display: inline-block;
+}
+
+
+/* ------------ section orgs ------------ */
+
+.orgs {
+  background-color: rgb(39, 53, 71);
+  height: 612px;
+  color: white;
+  margin: 0 auto;
+}
+
+.image {
+  width: 500px;
+  height: 500px;
+  margin: 20px 20px;
+  padding: 150px 0 0 500px;
+  display: inline-block;
+}
+
+.content {
+  margin: 50px 0 50px 0;
+  display: inline-block;
+}
+
+.content li {
+  line-height: 40px;
+}
+
+.button-2 {
+  background-color: rgb(203, 56, 55);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  margin: 20px 0 0 0;
+  padding: 11px 20px;
+  border-radius: 40px;
+  display: inline-block;
+}
+
+.orgs a {
+  text-decoration: none;
+  color: white;
+}
+
+
+/* ------------ section npm ------------ */
+
+.section {
+  background: url(images/forklift.svg);
+  background-size: cover;
+  margin: 0 auto; 
+  height: 612px;
+  position: relative;
+}
+
+.npm {
+  color: white;
+  display: inline-block;
+  position: absolute;
+  margin: 200px 0 0 500px;
+}
+
+.button-3 {
+  background-color: rgb(49, 68, 88);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  margin: 20px 0 0 0;
+  padding: 11px 20px;
+  border-radius: 40px;
+  display: inline-block;
+}
+
+
+/* ------------ section blocks ------------ */
+
+.blocks {
+  margin: 0 auto;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+.heading-blocks h1 {
+  color: rgb(83, 88, 98);
+  text-align: center;
+}
+
+.heading-blocks {
+  color: rgb(135, 145, 156);
+  text-align: center;
+}
+
+.images-blocks {
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.images {
+  float: left;
+}
+
+.images-blocks p {
+  padding: 0 0 100px 90px;
+  align-content: center;
+  width: 60%;
+  text-align: center;
+}
+
+.col3 {
+  width: 33%;
+}
+
+.images-blocks a {
+  color: rgb(208, 74, 73);
+  text-decoration: none;
+}
